@@ -1,0 +1,2 @@
+The system consists of a mobile client, backend services for eligibility and downloads,
+storage for audio files, and a metadata database to track download status and expiry.
