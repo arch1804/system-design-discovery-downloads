@@ -1,0 +1,10 @@
+Failure scenarios:
+- Download interrupted due to network issues
+- Expiry service temporarily unavailable
+- User attempts playback after expiry
+- Storage latency spikes
+
+Expected Behavior:
+- Resume or retry downloads
+- Fail gracefully with clear messaging
+- Prevent expired content playback
