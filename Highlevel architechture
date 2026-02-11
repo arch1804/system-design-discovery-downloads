@@ -1,2 +1,11 @@
 The system consists of a mobile client, backend services for eligibility and downloads,
 storage for audio files, and a metadata database to track download status and expiry.
+
+Main Components:
+- Client Application (Spotify Mobile App)
+- Download Service
+- Eligibility Service
+- Content Storage
+- Metadata Database
+- Expiry Service
+- Analytics Service
