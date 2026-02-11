@@ -1,0 +1,7 @@
+1. User taps “Discovery Download”
+2. Client sends request to Download Service
+3. Eligibility Service validates artist and user limits
+4. Audio file is fetched from Content Storage
+5. Metadata Database records download and expiry time
+6. User listens offline
+7. Expiry Service revokes access after expiry
