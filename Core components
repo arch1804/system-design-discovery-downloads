@@ -1,0 +1,20 @@
+Client Application:
+Handles user interaction, initiates download requests, and plays cached audio offline.
+
+Eligibility Service:
+Checks whether a track and artist qualify for Discovery Downloads.
+
+Download Service:
+Manages download requests, enforces limits, and coordinates storage access.
+
+Content Storage:
+Stores audio files separately from application logic.
+
+Metadata Database:
+Tracks downloaded songs, user limits, and expiry timestamps.
+
+Expiry Service:
+Revokes access once the download duration ends.
+
+Analytics Service:
+Tracks usage, conversion, and engagement metrics.
