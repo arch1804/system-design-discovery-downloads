@@ -1,0 +1,6 @@
+- Allow users to download individual tracks
+- Restrict downloads to eligible emerging artists
+- Limit number of downloads per user
+- Enable offline playback
+- Automatically expire downloads after a fixed time
+- Prevent access after expiry
