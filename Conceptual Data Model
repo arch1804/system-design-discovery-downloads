@@ -1,0 +1,11 @@
+Entities:
+- User
+- Track
+- Artist
+- DownloadSession
+
+Relationships:
+- A User can have multiple DownloadSessions
+- Each DownloadSession is linked to one Track
+- Each Track belongs to one Artist
+- DownloadSession includes expiry timestamp and status
